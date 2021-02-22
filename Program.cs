@@ -6,7 +6,7 @@ namespace Series
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("asdfasdfsdf");
+            Console.WriteLine("Series - POO");
         }
     }
 }
