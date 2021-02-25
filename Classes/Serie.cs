@@ -31,7 +31,6 @@ namespace Series.Classes
         }
 
         //encapsulamento
-
         public string retornaTitulo()
         {
             return this.Titulo;
@@ -40,7 +39,5 @@ namespace Series.Classes
         {
             return this.Id;
         }
-
     }
-
 }
