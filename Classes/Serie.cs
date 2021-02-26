@@ -1,3 +1,5 @@
+using System.Runtime.CompilerServices;
+using System.Globalization;
 using System;
 namespace Series.Classes
 {
@@ -7,6 +9,7 @@ namespace Series.Classes
         private string Titulo { get; set; }
         private string Descricao { get; set; }
         private int Ano { get; set; }
+        public bool Excluido { get; set; }
 
         //Construtor    
         public Serie(Genero genero, string titulo, string descricao, int ano)
@@ -16,6 +19,8 @@ namespace Series.Classes
             this.Titulo = titulo;
             this.Descricao = descricao;
             this.Ano = ano;
+            this.Excluido = false;
+            // cuidado com a excluisão da informação, no sentido de sumir com aquela info.
 
         }
 
@@ -38,6 +43,10 @@ namespace Series.Classes
         public int retrnaId()
         {
             return this.Id;
+        }
+        public void Excluir()
+        {
+            this.Excluido = true;
         }
     }
 }

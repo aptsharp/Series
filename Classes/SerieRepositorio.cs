@@ -7,34 +7,41 @@ namespace Series.Classes
     public class SerieRepositorio : IRepositorio<Serie>
     {
         private List<Serie> listaSerie = new List<Serie>();
-        void IRepositorio<Serie>.Atualiza(int id, Serie endidade)
+        void IRepositorio<Serie>.Atualiza(int id, Serie objeto)
         {
-            throw new NotImplementedException();
+            listaSerie[id] = objeto;
         }
 
         void IRepositorio<Serie>.Excluir(int id)
         {
-            throw new NotImplementedException();
+            listaSerie[id].Excluir();
+            /*
+             * todas as implementação devem ser usadas aqui referente a cada metodo
+             * exemplo situacional: todas as vezes que excluir uma serie mandar um e-mail
+             * essa metodologia de e-mail deve ser colocada aqui dentro do metodo
+             * ou pode ser feito uma classe de negociso, já pensando nesse desenvolvimento 
+            */
         }
 
-        void IRepositorio<Serie>.Insere(Serie entidade)
+        void IRepositorio<Serie>.Insere(Serie objeto)
         {
-            throw new NotImplementedException();
+            listaSerie.Add(objeto); //apenas adiciona o objeto a lista
         }
 
         List<Serie> IRepositorio<Serie>.Lista()
         {
-            throw new NotImplementedException();
+           return listaSerie;
         }
 
         int IRepositorio<Serie>.proximoId()
         {
-            throw new NotImplementedException();
+            return listaSerie.Count;
+            // com a coleção baseada em 0 o Count sempre vai estar +1 na frente
         }
 
         Serie IRepositorio<Serie>.RetornaPorId(int id)
         {
-            throw new NotImplementedException();
+            return listaSerie[id];
         }
     }
 }

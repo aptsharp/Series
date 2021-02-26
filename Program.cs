@@ -7,6 +7,9 @@ namespace Series
         static void Main(string[] args)
         {
             Console.WriteLine("Series - POO");
+
+
+
         }
     }
 }
