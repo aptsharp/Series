@@ -2,12 +2,12 @@ using Series.Interfaces;
 using System;
 using System.Collections.Generic;
 
-namespace Series.Classes
+namespace Series
 {
     public class SerieRepositorio : IRepositorio<Serie>
     {
         private List<Serie> listaSerie = new List<Serie>();
-        
+
         public void Atualiza(int id, Serie objeto)
         {
             listaSerie[id] = objeto;
@@ -30,10 +30,10 @@ namespace Series.Classes
         }
 
         public List<Serie> Lista()
-        {
-           return listaSerie;
-        }
-
+		{
+			return listaSerie;
+		}
+        
         public int proximoId()
         {
             return listaSerie.Count;
