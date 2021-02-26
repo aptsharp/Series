@@ -1,4 +1,5 @@
 ﻿using System;
+using Series.Classes;
 
 namespace Series
 {
@@ -73,9 +74,9 @@ namespace Series
         {
             Console.WriteLine("Listar series");
 
-            var lista = repositorio.List();
+            var lista = repositorio.Lista();
 
-            if (lista.count == 0)
+            if (lista.Count == 0)
             {
                 Console.WriteLine("vazio!");
                 return;
@@ -83,7 +84,7 @@ namespace Series
 
             foreach (var serie in lista)
             {
-                Console.WriteLine("#ID {0}: {1}", serie.RetornaPorId(), serie.retornaTitulo());
+                Console.WriteLine("#ID {0}: {1}", serie.retornaTitulo(), serie.retornaTitulo());
             }
         }
 

@@ -2,7 +2,7 @@ using Series.Interfaces;
 using System;
 using System.Collections.Generic;
 
-namespace Series
+namespace Series.Classes
 {
     public class SerieRepositorio : IRepositorio<Serie>
     {
