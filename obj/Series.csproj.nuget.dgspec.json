@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\_C0de\\_DIO\\Criando um APP simples de cadastro de séries em .NET\\_app\\Series\\Series\\Series.csproj": {}
+    "C:\\_C0de\\_DIO\\Criando um APP simples de cadastro de séries em .NET\\_app\\Series\\Series.csproj": {}
   },
   "projects": {
-    "C:\\_C0de\\_DIO\\Criando um APP simples de cadastro de séries em .NET\\_app\\Series\\Series\\Series.csproj": {
+    "C:\\_C0de\\_DIO\\Criando um APP simples de cadastro de séries em .NET\\_app\\Series\\Series.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_C0de\\_DIO\\Criando um APP simples de cadastro de séries em .NET\\_app\\Series\\Series\\Series.csproj",
+        "projectUniqueName": "C:\\_C0de\\_DIO\\Criando um APP simples de cadastro de séries em .NET\\_app\\Series\\Series.csproj",
         "projectName": "Series",
-        "projectPath": "C:\\_C0de\\_DIO\\Criando um APP simples de cadastro de séries em .NET\\_app\\Series\\Series\\Series.csproj",
+        "projectPath": "C:\\_C0de\\_DIO\\Criando um APP simples de cadastro de séries em .NET\\_app\\Series\\Series.csproj",
         "packagesPath": "C:\\Users\\aff-o\\.nuget\\packages\\",
-        "outputPath": "C:\\_C0de\\_DIO\\Criando um APP simples de cadastro de séries em .NET\\_app\\Series\\Series\\obj\\",
+        "outputPath": "C:\\_C0de\\_DIO\\Criando um APP simples de cadastro de séries em .NET\\_app\\Series\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

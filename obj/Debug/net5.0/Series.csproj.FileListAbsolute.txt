@@ -1,0 +1,16 @@
+C:\_C0de\_DIO\Criando um APP simples de cadastro de séries em .NET\_app\Series\bin\Debug\net5.0\Series.exe
+C:\_C0de\_DIO\Criando um APP simples de cadastro de séries em .NET\_app\Series\bin\Debug\net5.0\Series.deps.json
+C:\_C0de\_DIO\Criando um APP simples de cadastro de séries em .NET\_app\Series\bin\Debug\net5.0\Series.runtimeconfig.json
+C:\_C0de\_DIO\Criando um APP simples de cadastro de séries em .NET\_app\Series\bin\Debug\net5.0\Series.runtimeconfig.dev.json
+C:\_C0de\_DIO\Criando um APP simples de cadastro de séries em .NET\_app\Series\bin\Debug\net5.0\Series.dll
+C:\_C0de\_DIO\Criando um APP simples de cadastro de séries em .NET\_app\Series\bin\Debug\net5.0\ref\Series.dll
+C:\_C0de\_DIO\Criando um APP simples de cadastro de séries em .NET\_app\Series\bin\Debug\net5.0\Series.pdb
+C:\_C0de\_DIO\Criando um APP simples de cadastro de séries em .NET\_app\Series\obj\Debug\net5.0\Series.csprojAssemblyReference.cache
+C:\_C0de\_DIO\Criando um APP simples de cadastro de séries em .NET\_app\Series\obj\Debug\net5.0\Series.GeneratedMSBuildEditorConfig.editorconfig
+C:\_C0de\_DIO\Criando um APP simples de cadastro de séries em .NET\_app\Series\obj\Debug\net5.0\Series.AssemblyInfoInputs.cache
+C:\_C0de\_DIO\Criando um APP simples de cadastro de séries em .NET\_app\Series\obj\Debug\net5.0\Series.AssemblyInfo.cs
+C:\_C0de\_DIO\Criando um APP simples de cadastro de séries em .NET\_app\Series\obj\Debug\net5.0\Series.csproj.CoreCompileInputs.cache
+C:\_C0de\_DIO\Criando um APP simples de cadastro de séries em .NET\_app\Series\obj\Debug\net5.0\Series.dll
+C:\_C0de\_DIO\Criando um APP simples de cadastro de séries em .NET\_app\Series\obj\Debug\net5.0\ref\Series.dll
+C:\_C0de\_DIO\Criando um APP simples de cadastro de séries em .NET\_app\Series\obj\Debug\net5.0\Series.pdb
+C:\_C0de\_DIO\Criando um APP simples de cadastro de séries em .NET\_app\Series\obj\Debug\net5.0\Series.genruntimeconfig.cache

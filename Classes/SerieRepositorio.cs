@@ -7,12 +7,13 @@ namespace Series.Classes
     public class SerieRepositorio : IRepositorio<Serie>
     {
         private List<Serie> listaSerie = new List<Serie>();
-        void IRepositorio<Serie>.Atualiza(int id, Serie objeto)
+        
+        public void Atualiza(int id, Serie objeto)
         {
             listaSerie[id] = objeto;
         }
 
-        void IRepositorio<Serie>.Excluir(int id)
+        public void Excluir(int id)
         {
             listaSerie[id].Excluir();
             /*
@@ -23,23 +24,23 @@ namespace Series.Classes
             */
         }
 
-        void IRepositorio<Serie>.Insere(Serie objeto)
+        public void Insere(Serie objeto)
         {
             listaSerie.Add(objeto); //apenas adiciona o objeto a lista
         }
 
-        List<Serie> IRepositorio<Serie>.Lista()
+        public List<Serie> Lista()
         {
            return listaSerie;
         }
 
-        int IRepositorio<Serie>.proximoId()
+        public int proximoId()
         {
             return listaSerie.Count;
             // com a coleção baseada em 0 o Count sempre vai estar +1 na frente
         }
 
-        Serie IRepositorio<Serie>.RetornaPorId(int id)
+        public Serie RetornaPorId(int id)
         {
             return listaSerie[id];
         }
