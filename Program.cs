@@ -4,9 +4,6 @@ namespace Series
 {
     class Program
     {
-        
-        static SerieRepositorio repositorio = new SerieRepositorio();
-
         static void Main(string[] args)
         {
             Console.WriteLine("Series - POO");
@@ -18,19 +15,19 @@ namespace Series
                 switch (opcaoUsuario)
                 {
                     case "1":
-                        ListarSeries();
+                       //ListarSeries();
                         break;
                     case "2":
-                        InserirSerie();
+                       // InserirSerie();
                         break;
                     case "3":
-                        AtualizarSerie();
+                       //AtualizarSerie();
                         break;
                     case "4":
-                        ExcluirSerie();
+                        //ExcluirSerie();
                         break;
                     case "5":
-                        VisualizarSerie();
+                       // VisualizarSerie();
                         break;
                     case "C":
                         Console.Clear();
@@ -47,6 +44,8 @@ namespace Series
 
             Console.WriteLine("FIM!");
         }
+
+        /*
 
         private static void VisualizarSerie()
         {
@@ -85,6 +84,8 @@ namespace Series
                 Console.WriteLine("#ID {0}: {1}", serie.RetornaPorId(), serie.retornaTitulo());
             }
         }
+
+        */
 
         private static string ObterOpcaoUsuario()
         {

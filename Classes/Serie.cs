@@ -1,6 +1,5 @@
-using System.Runtime.CompilerServices;
-using System.Globalization;
 using System;
+
 namespace Series.Classes
 {
     public class Serie : EntidadeBase
@@ -11,7 +10,7 @@ namespace Series.Classes
         private int Ano { get; set; }
         public bool Excluido { get; set; }
 
-        //Construtor    
+        //Metodos    
         public Serie(Genero genero, string titulo, string descricao, int ano)
         {
             this.Id = Id;
@@ -43,6 +42,10 @@ namespace Series.Classes
         public int retrnaId()
         {
             return this.Id;
+        }
+        public bool retornaExcluido()
+        {
+            return this.Excluido;
         }
         public void Excluir()
         {
