@@ -1,4 +1,5 @@
-![project](https://user-images.githubusercontent.com/6175226/109372999-3cc0fd00-788b-11eb-8add-905e696539af.gif)
+<img src="https://user-images.githubusercontent.com/6175226/109372999-3cc0fd00-788b-11eb-8add-905e696539af.gif" width="600">
+
 
 ## Descrição:
 
