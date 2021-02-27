@@ -1,4 +1,5 @@
-﻿using System;
+﻿using System.Collections.Generic;
+using System;
 using Series.Classes;
 
 namespace Series
@@ -52,17 +53,55 @@ namespace Series
 
         private static void VisualizarSerie()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("ID da serie: ");
+            int indiceSerie = int.Parse(Console.ReadLine());
+
+            var serie = repositorio.RetornaPorId(indiceSerie);
+
+            Console.WriteLine(serie);
         }
 
         private static void ExcluirSerie()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Id da serie: ");
+            int indiceSerie = int.Parse(Console.ReadLine());
+
+            repositorio.Excluir(indiceSerie);
         }
 
         private static void AtualizarSerie()
         {
-            throw new NotImplementedException();
+
+            Console.WriteLine("Atualizar ");
+
+            Console.WriteLine("digite o ID: ");
+            int indiceSerie = int.Parse(Console.ReadLine());
+
+            foreach (int i in Enum.GetValues(typeof(Genero)))
+            {
+                Console.WriteLine("{0} - {1}", i, Enum.GetName(typeof(Genero), i));
+            }
+
+            Console.WriteLine("Genero: ");
+            int entradaGenero = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o Titulo: ");
+            string entradaTitulo = Console.ReadLine();
+
+            Console.WriteLine("Digite o ano do filme: ");
+            int entradaAno = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Descrição do filme: ");
+            string entradaDescricao = Console.ReadLine();
+
+            Serie atualizaSerie = new Serie(id: indiceSerie,
+                                        genero: (Genero)entradaGenero,
+                                        titulo: entradaTitulo,
+                                        ano: entradaAno,
+                                        descricao, entradaDescricao);
+
+            repositorio.Atualiza(indiceSerie, atualizaSerie);
+
         }
 
         private static void InserirSerie()
