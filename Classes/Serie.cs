@@ -13,7 +13,7 @@ namespace Series.Classes
         //Metodos    
         public Serie(int id, Genero genero, string titulo, string descricao, int ano)
         {
-            this.Id = Id;
+            this.Id = id;
             this.Genero = genero;
             this.Titulo = titulo;
             this.Descricao = descricao;

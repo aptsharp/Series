@@ -98,7 +98,7 @@ namespace Series
                                         genero: (Genero)entradaGenero,
                                         titulo: entradaTitulo,
                                         ano: entradaAno,
-                                        descricao, entradaDescricao);
+                                        descricao: entradaDescricao);
 
             repositorio.Atualiza(indiceSerie, atualizaSerie);
 
@@ -129,7 +129,7 @@ namespace Series
                                         genero: (Genero)entradaGenero,
                                         titulo: entradaTitulo,
                                         ano: entradaAno,
-                                        descricao, entradaDescricao);
+                                        descricao: entradaDescricao);
 
             repositorio.Insere(novaSerie);
 
