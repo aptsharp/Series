@@ -149,7 +149,10 @@ namespace Series
 
             foreach (var serie in lista)
             {
-                Console.WriteLine("#ID {0}: {1}", serie.retornaTitulo(), serie.retornaTitulo());
+
+                var excluido = serie.retornaExcluido();
+
+                Console.WriteLine("#ID {0}: - {1} {2}", serie.retornaId(), serie.retornaTitulo(), (excluido ? "*Excluido*" : ""));
             }
         }
 

@@ -11,7 +11,7 @@ namespace Series.Classes
         public bool Excluido { get; set; }
 
         //Metodos    
-        public Serie(Genero genero, string titulo, string descricao, int ano)
+        public Serie(int id, Genero genero, string titulo, string descricao, int ano)
         {
             this.Id = Id;
             this.Genero = genero;
@@ -40,7 +40,7 @@ namespace Series.Classes
         {
             return this.Titulo;
         }
-        public int retrnaId()
+        public int retornaId()
         {
             return this.Id;
         }
