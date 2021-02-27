@@ -67,7 +67,33 @@ namespace Series
 
         private static void InserirSerie()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Inserir");
+
+            foreach (int i in Enum.GetValues(typeof(Genero)))
+            {
+                Console.WriteLine("{0} - {1}", i, Enum.GetName(typeof(Genero), i));
+            }
+
+            Console.WriteLine("Genero: ");
+            int entradaGenero = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o Titulo: ");
+            string entradaTitulo = Console.ReadLine();
+
+            Console.WriteLine("Digite o ano do filme: ");
+            int entradaAno = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Descrição do filme: ");
+            string entradaDescricao = Console.ReadLine();
+
+            Serie novaSerie = new Serie(id: repositorio.proximoId(),
+                                        genero: (Genero)entradaGenero,
+                                        titulo: entradaTitulo,
+                                        ano: entradaAno,
+                                        descricao, entradaDescricao);
+
+            repositorio.Insere(novaSerie);
+
         }
 
         private static void ListarSeries()
